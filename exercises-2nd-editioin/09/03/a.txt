@@ -1,0 +1,3 @@
+3. Why is it a good idea to think about the types of a function in a module before you write the module? Is this always a good idea?
+abstract
+almost

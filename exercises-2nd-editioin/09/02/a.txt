@@ -1,0 +1,3 @@
+2. Look at the type annotations in the code in the standard libraries. Find the source code for the module lists.erl and read all the type annotations.
+
+/usr/local/lib/erlang/lib/stdlib-2.4/src/lists.erl
