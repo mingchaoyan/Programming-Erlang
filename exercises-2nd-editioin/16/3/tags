@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BIG_SIZE	md5sum.erl	/^-define(BIG_SIZE, 10).$/;"	d
+STEP	md5sum.erl	/^-define(STEP, 100*1024*1024).$/;"	d
+digest2hex	md5sum.erl	/^digest2hex(Digest) ->$/;"	f
+do_md5	md5sum.erl	/^do_md5(S, Size, Start, Context) ->$/;"	f
+do_md5	md5sum.erl	/^do_md5(S, Size, Start, Context) when Start + ?STEP =< Size ->$/;"	f
+main	md5sum.erl	/^main([File|T]) ->$/;"	f
+main	md5sum.erl	/^main([]) ->$/;"	f
+main_big	md5sum.erl	/^main_big(File, Size) ->$/;"	f
+main_small	md5sum.erl	/^main_small(File) ->$/;"	f
