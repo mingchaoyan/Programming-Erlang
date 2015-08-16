@@ -1,3 +1,5 @@
+%%1. When an Erlang file X.erl is compiled, a file X.beam is created (if the compi- lation succeeded). Write a program that checks whether an Erlang module needs recompiling. Do this by comparing the last modified time stamps of the Erlang and beam files concerned.
+%%
 -module(make).
 -export([need_recompile/1]).
 -include_lib("kernel/include/file.hrl").

@@ -1,4 +1,5 @@
 #!/usr/bin/env escript
+%% 2. Write a program to compute the MD5 checksum of a small file, and use the BIF erlang:md5/1 to compute the MD5 checksum of the data (see the Erlang manual page for details of this BIF).
 
 main([File|T]) ->
     case lists:member(File, filelib:wildcard(File)) of
