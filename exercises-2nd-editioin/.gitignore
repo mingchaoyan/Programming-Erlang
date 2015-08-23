@@ -2,4 +2,5 @@
 *.dump
 *.swp
 log/*
+tags
 
