@@ -1,2 +1,5 @@
 *.beam
+*.dump
+*.swp
+log/*
 
