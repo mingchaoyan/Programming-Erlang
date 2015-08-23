@@ -1,0 +1,11 @@
+{application,sellaprime,
+             [{description,"The Prime Number Shop"},
+              {vsn,"1.0"},
+              {modules,[area_server,dynamic_compile,elog_app,lib_lin,
+                        lib_primes,logger_h,loglevel,my_alarm_handler,
+                        prime_server,prime_tester_server,sellaprime_app,
+                        sellaprime_sup]},
+              {registered,[area_server,prime_server,sellaprime_super]},
+              {applications,[kernel,stdlib]},
+              {mod,{sellaprime_app,[]}},
+              {start_phases,[]}]}.
